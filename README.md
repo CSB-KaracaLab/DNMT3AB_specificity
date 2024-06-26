@@ -1,7 +1,5 @@
 # A direct readout mechanism defines the sequence selectivity of human de novo DNA methyltransferases
 
-Our MD data: [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.12545441.svg)](https://doi.org/10.5281/zenodo.12545441)
-
 The preprint describing our work: [![DOI:10.1101/2024.02.07.579311](http://img.shields.io/badge/DOI-10.1101/2024.02.07.579311-B31B1B.svg)](https://www.biorxiv.org/content/10.1101/2024.02.07.579311v2)
 
 In mammals, de novo DNA methylation is essential to embryonic development, reprogramming, and gene regulation. The de novo DNA methylation is directed by DNMT3A and DNMT3B enzymes and mainly exerted on CpG islands. Over their enzymatic domains, DNMT3A/B proteins share over 90% of sequence similarity. Even so, DNMT3A predominantly methylates the first cytosine in the CGC and CGT motifs, while DNMT3B prefers the CGG and CGA sequences. To elucidate the mechanistic basis of these selective methylation profiles, we performed extensive molecular dynamics simulations of DNMT3A/B enzymes bound to all possible CGX[C/G/T/A] motifs. For each complex, we performed 2 µs long molecular dynamics (MD) simulations under AMBER parmbsc1 force-field. Afterwards, we calculated the differential base-specific hydrogen bonding profiles of the systems.
@@ -26,6 +24,8 @@ The repository is organized into the following main folders:
 ***3. Movies:*** includes movies of MD simulation trajectories of DNMT3A-CGC (cognate) and DNMT3B-CGG (cognate) complexes.
  	
 ***4.	Starting_structures:*** includes the initial structures of our DNMT3A/B – CGC/G/T/A complexes for MD simulations.
+
+Our MD conformers are deposited at [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.12545441.svg)](https://doi.org/10.5281/zenodo.12545441)
 
 ## Contact
 
